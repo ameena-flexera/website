@@ -1,0 +1,61 @@
+.form_class {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    position: fixed; /* or absolute */
+    top: 20%;
+    left: 40%;
+    box-shadow: 0px 0px 10px black;
+}
+
+h1 {
+    color: white;
+    background-color: teal;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 0%;
+    align-items: center;
+}
+
+.submit_button {
+    margin: 5px;
+    position: relative;
+    top: 90%;
+    left: 40%;
+}
+
+label {
+    width:120px;
+    clear:left;
+    text-align:right;
+    margin-right:10px;
+
+}
+
+input {
+    margin: 5px;
+    text-align: left;
+    border-radius: 4px;
+}
+
+input, label {
+    float:left;
+}
+
+input::placeholder {
+    color: black;
+    padding: 2px;
+}
+
+input:hover {
+    box-shadow: 1px solid grey;
+}
+
+input:focus {
+    outline: none;
+}
+
+.clear{
+    clear: both;
+}

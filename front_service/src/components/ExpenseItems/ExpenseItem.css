@@ -1,0 +1,46 @@
+.expense_item {
+    margin: 10px;
+    height: 40px;
+    background-color: grey;
+}
+
+.date_ei {
+    float: left;
+    margin: 8px;
+    text-decoration: double;
+    color: black;
+}
+
+.name_ei {
+    float: left;
+    margin: 8px;
+    color: black;
+}
+.shop_name_ei {
+    float: left;
+    margin: 8px;
+    color: black;
+}
+
+.descr_ei {
+    float: left;
+    margin: 8px;
+    color: black;
+}
+
+.price_ei {
+    float: left;
+    margin: 8px;
+    padding: 2px;
+    color: black;
+}
+
+.ei_button_class {
+    margin: 8px;
+    float: left;
+}
+
+.ei_button_class:hover {
+    transform: scale(1.5);
+}
+

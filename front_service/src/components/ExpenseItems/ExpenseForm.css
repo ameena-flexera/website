@@ -1,0 +1,9 @@
+.expense_form {
+    margin: 10px;
+    position: sticky; /* or absolute */
+    left: 40%;
+}
+
+.clear{
+    clear: both;
+}
